@@ -35,8 +35,8 @@ The two anchors used in our email example are ^ and $.
 ### Quantifiers
 
 Quantifiers are used to match a certain number of occurences within the string. These are useful for more ambiguous matches, like matching for every space in a string, or for doing a greedy search (using ```*```).
-The one quantifier in our example is the +.
 * ```+```: This quantifier matches the preceding character one or more times. 
+* ```{x, y}```: This quantifier matches the previous expression, at a minimum of x times and a maximum of y times. This essentially means that the domain extension can't be shorter than 2 characters, and cannot be longer than 6 characters.
 
 ### Grouping Constructs
 
